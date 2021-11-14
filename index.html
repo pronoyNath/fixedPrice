@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Price</title>
+</head>
+<body>
+    
+
+<script>
+    
+    var laptop = 20000;
+    var watch = 5000;
+    var phone = 10000;
+
+    document.write("<h2>laptop 1pc = " + laptop + " BDT</br>", "watch 1pc = " + watch + " BDT</br>","Phone 1pc = " + phone + " BDT");
+    
+    function totalPrice(total){
+        total = laptop + watch + phone;
+        return total;
+    }
+
+    var price = totalPrice(laptop,watch,phone);
+    document.write("<hr>Total Price = " + price + " BDT</h2>");
+
+</script>
+
+</body>
+</html>
